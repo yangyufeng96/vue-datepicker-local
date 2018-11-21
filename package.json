@@ -1,43 +1,11 @@
 {
-  "name": "vue-datepicker-local",
-  "version": "1.0.19",
-  "description": "A datepicker for Vue.js",
+  "name": "vue2-datepicker-yyf",
+  "version": "1.0.0",
+  "description": "vue",
   "main": "src/index.js",
-  "files": [
-    "dist/**",
-    "src/**",
-    "LICENSE",
-    "README.md"
-  ],
-  "browserify": {
-    "transform": [
-      [
-        "babelify"
-      ],
-      [
-        "vueify"
-      ]
-    ]
+  "directories": {
+    "example": "example"
   },
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/weifeiyue/vue-datepicker-local.git"
-  },
-  "keywords": [
-    "vue",
-    "datepicker",
-    "components"
-  ],
-  "author": "weifeiyue <weifeiyue@meizu.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/weifeiyue/vue-datepicker-local/issues"
-  },
-  "homepage": "https://github.com/weifeiyue/vue-datepicker-local#readme",
   "dependencies": {
     "vue": "^2.5.15"
   },
@@ -60,5 +28,22 @@
     "vue-template-compiler": "^2.5.15",
     "webpack": "^3.11.0",
     "webpack-dev-server": "2.11.2"
-  }
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangyufeng96/vue-datepicker-local.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "yangyufeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangyufeng96/vue-datepicker-local/issues"
+  },
+  "homepage": "https://github.com/yangyufeng96/vue-datepicker-local#readme"
 }
